@@ -22,6 +22,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="animation.css" />
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
@@ -29,14 +30,20 @@
     <div class="container d-flex align-items-center h-100">
       <div class="row">
         <header class="text-center col-12">
-          <h1 class="text-uppercase">Wolf´s Big StartUp in 2021</h1>
+          <div class="animate__animated animate__fadeIn animate__slow 3s">
+            <h1 class="text-uppercase">Wolf´s Big StartUp in 2021</h1>
+          </div>
         </header>
         <div ="buffer col-12"></div>
         <section class="text-center col-12">
           <hr />
-          <a href="https://mailchi.mp/b05954713257/wolfslicht-coding">
-            <button class="btn btn-primary btn-xl">more Info...</button>
-          </a>
+          <div
+            class="animate__animated animate__pulse animate__delay-4s 4s animate__slow 2s animate__infinite infinite"
+          >
+            <a href="https://mailchi.mp/b05954713257/wolfslicht-coding">
+              <button class="btn btn-primary btn-xl">more Info...</button>
+            </a>
+          </div>
         </section>
       </div>
     </div>
